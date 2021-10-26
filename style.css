@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+  font-family: 'krona one', sans-serif;
+  margin: 0; 
+  background: black;
+}
+  h1 {
+  text-align: center;
+  background-color: #000;
+  color: rgb(200, 200, 200);
+  font-size: 35px;
+}
+  h2 {
+    text-align: center;
+}
+  .nav-bar {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+  a:hover {
+    color: rgba(180, 180, 180, 0.9);
+}
+  .main-text {
+  text-align: justify;
+  background-color: rgba(45, 45, 45, 0.9);
+  color: rgb(200, 200, 200);
+}
+  .links {
+    color: rgb(200, 200, 200);
+    opacity: 0.8;
+}
+  .videowrapper {
+    display: flex;
+}
+  .title{
+    color: rgb(200, 200, 200);
+}
+   footer {
+    text-align: center;
+    color: rgb(200, 200, 200);
+    font-size: 10px;
+}
+  img {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+  #img-div p {
+    background-color: black;
+    color: rgb(200, 200, 200);
+    font-size: 8px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav {
+  background-color: rgb(45, 45, 45);
+  padding: 5px;
+}
+nav ul {
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li a {
+  color: #ddd;
+  padding: 30px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center; 
+}
+.responsive-img {
+  max-width: 50%;
+  height: auto;
+}
+.center {
+    text-align: center;
+  }
